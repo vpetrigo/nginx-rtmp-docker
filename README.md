@@ -1,3 +1,5 @@
+![](https://github.com/vpetrigo/nginx-rtmp-docker/workflows/Docker/badge.svg)
+
 # Docker container with Nginx + RTMP
 
 This repository contains Dockerfile to build [nginx][nginx] webserver with the following modules
