@@ -57,7 +57,7 @@ jobs:
         run: |
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo "$IMAGE_NAME" | tr '[A-Z]' '[a-z]')
-          IMAGE_ID="docker.pkg.github.com/${{ github.repository }}/$IMAGE_ID
+          IMAGE_ID=docker.pkg.github.com/${{ github.repository }}/$IMAGE_ID
 
           # Strip git ref prefix from version
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
